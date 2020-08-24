@@ -1,0 +1,77 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+a{text-decoration: none;}
+a:hover{text-decoration: none;}
+li{list-style: none;}
+
+.navbar{
+  background-color: rgba(0,0,0,0.4);
+  position: fixed;
+  width: 100vw;
+  z-index: 1;
+  box-shadow: 0 3px 5px black;
+}
+.navbar-brand{
+  background-image: url(mylogo.png);
+  width: 45px;
+  height: 45px;
+  background-size: cover;
+  margin: 0 0 0 20px;
+}
+.nav-item a{
+  color: white !IMPORTANT;
+  text-transform: uppercase;
+}
+.btn-primary{
+  color: red;
+  background-color: yellow;
+}
+.header{
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(120deg, black 10%,
+  rgba(11, 41, 14, 0.9) 25%, rgba(0, 0, 0, 0.5) 60%,
+  transparent 20%), url(me.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 83% 50%;
+  /* clip-path: polygon(30% 0%, 100% 0%, 100% 100%, 0% 100%); */
+  color: white;
+  box-shadow: -10px 0 5px white;
+}
+.header-center-part{
+  width: 55%;
+  height: auto;
+  top: 25%;
+  left: 5%;
+  padding: 0 0 0 4%;
+  position: absolute;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.bottom-border{
+  border-width: 0 0 3px 0;
+  border-color: white;
+  border-style: double;
+}
+.name{
+  font-family: 'Comfortaa', cursive;
+  font-size: 4em;
+  text-transform: uppercase;
+}
+.t1{
+  padding: 20px;
+  font-size: 1.3rem;
+}
+.hr{
+  width: 100%;
+  height: 5px;
+  background-image: linear-gradient(to right, rgb(255,0,0),rgb(255,255,0)
+  ,rgb(0,255,0),rgb(0,255,255),rgb(0,0,255),rgb(255,0,255),
+  rgb(255,0,0));
+}

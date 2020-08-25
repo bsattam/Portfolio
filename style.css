@@ -39,10 +39,10 @@ li{list-style: none;}
   height: 98vh;
   background-image: linear-gradient(120deg, black 10%,
   rgba(11, 41, 14, 0.9) 25%, rgba(0, 0, 0, 0.5) 60%,
-  transparent 20%), url(me.jpg);
+  transparent 20%), url(me.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: 83% 3%;
+  background-position: 83% 30%;
   /* clip-path: polygon(30% 0%, 100% 0%, 100% 100%, 0% 100%); */
   color: white;
   box-shadow: -10px 0 5px white;
@@ -51,7 +51,7 @@ li{list-style: none;}
   width: 55%;
   height: auto;
   top: 25%;
-  left: 5%;
+  left: 4%;
   padding: 0 0 0 4%;
   position: absolute;
   text-align: center;
@@ -59,7 +59,7 @@ li{list-style: none;}
   flex-direction: column;
 }
 .header-center-part p{
-  text-transform: uppercase;
+  text-transform: ;
 }
 .bottom-border{
   border-width: 0 0 3px 0;
@@ -67,9 +67,9 @@ li{list-style: none;}
   border-style: double;
 }
 .name{
-  font-family: 'Comfortaa', cursive;
-  font-size: 4em;
-  text-transform: uppercase;
+  font-family: 'Megrim', cursive;
+  font-size: calc(25px + 2.6vw);
+
 }
 .t1{
   padding: 20px;

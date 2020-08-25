@@ -4,9 +4,15 @@
   font-family: 'Poppins', sans-serif;
 }
 body{
-  background-color: #fadcac;
   height: 500vh;
 }
+
+/*
+#071202
+#020F12
+#0D0212
+#120602
+*/
 
 a{text-decoration: none;}
 a:hover{text-decoration: none;}
@@ -69,22 +75,43 @@ li{list-style: none;}
 .name{
   font-family: 'Megrim', cursive;
   font-size: calc(25px + 2.6vw);
+}
 
-}
-.t1{
-  padding: 20px;
-  font-size: 1.3rem;
-}
 .hr{
   width: 100%;
-  height: 5px;
+  height: 3px;
   background-image: linear-gradient(to right, rgb(255,0,0),rgb(255,255,0)
   ,rgb(0,255,0),rgb(0,255,255),rgb(0,0,255),rgb(255,0,255),
   rgb(255,0,0));
 }
-.font1{
-  font-size: calc(20px + 2.6vw);
+
+
+.about-me{
+  width: 100%;
+  background-image: linear-gradient(
+    #052128 30%, #031317 75%);
+    color: white;
 }
-.font3{
-  font-size: calc(10px + 1vw);
+.about-me-image{
+  width: 500px;
+  height: 400px;
+  background-image: url(me-2.jpeg);
+  background-position: 50% 72%;
+  background-size: cover;
+  clip-path: polygon(50% 0%, 85% 10%, 75% 80%, 50% 100%,
+    25% 80%, 15% 10%);
+}
+.about-me-desc{
+  width: 500px;
+}
+.heading{
+  border-bottom: 3px double #f2e6ff;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .about-me-image{
+    width: 300px;
+    height: 240px;
+  }
 }

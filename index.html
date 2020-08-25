@@ -10,7 +10,21 @@
     <link href="https://fonts.googleapis.com/css2?family=Megrim&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
   </head>
-  <body>
+  <body onload="loadingEnabler()">
+
+<!----------Stylish loading screen goes here-------------->
+<section class="load-body" id="loading">
+  <div class="loader">
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</section>
+<!------------Stylish loading screen ends here------------>
+
+
+
 <div class="hr"></div>
 
  <!-------------------Navigation bar begins here----------->
@@ -68,15 +82,33 @@
 <section class="about-me">
     <div class="d-flex flex-wrap flex-row justify-content-around align-items-center w-75 mx-auto">
       <div class="about-me-image my-5"></div>
-      <div class="about-me-desc d-flex flex-column mr-5 mb-5">
+      <div class="about-me-desc d-flex flex-column mb-5">
         <div class="text-center text-white h1 mb-5 heading pb-2">About Me</div>
         <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
       </div>
     </div>
 </section>
-
 <div class="hr"></div>
 
+<!----------------About me section ends here------------->
+
+
+<!----------------Education section begins here----------->
+
+<section class="education">
+  <div class="education-content d-flex ">
+    <div class="education-box">
+
+    </div>
+    <div class="education-box">
+
+    </div>
+    <div class="education-box">
+
+    </div>
+  </div>
+</section>
+<div class="hr"></div>
 
     <script src="script.js"></script>
     <script src="https://kit.fontawesome.com/e7fd050cda.js" crossorigin="anonymous"></script>

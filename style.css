@@ -88,8 +88,11 @@ li{list-style: none;}
 
 .about-me{
   width: 100%;
-  background-image: linear-gradient(
-    #052128 30%, #031317 75%);
+  background-image: linear-gradient(to right, rgba(0,0,0,0.7),
+  rgba(0,0,0,0.9)), url(about-me-bg.jpg);
+  background-size: cover;
+  background-position: 60% 50%;
+  background-attachment: fixed;
     color: white;
 }
 .about-me-image{
@@ -104,23 +107,76 @@ li{list-style: none;}
 .about-me-desc{
   width: 500px;
 }
-.heading{
+.heading-border{
   border-bottom: 3px double #f2e6ff;
 }
 
 
 .education{
   width: 100%;
-  height: 90vh;
-  background-image: linear-gradient(
-    #110317 20%, #040105 80%);
+  background-image: linear-gradient(135deg, rgba(0,0,0,0.95) 10%,
+    rgba(11,0,15,0.95) 25%, rgba(17,0,23,0.95) 60%, rgba(0,0,0,0.8) 60%),
+    url(books.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.education-content{
+  height: 595px;
+  width: 600px;
+  margin: 40px 150px;
+  display: flex;
+}
+.education-box{
+  width: 201px;
+  height: 200px;
+  background-image: linear-gradient(45deg,
+  #4f34eb, #eb34cc, #eb3434);
+}
+.edu-border{
+  border-width: 0 3px 3px 0;
+  border-color: red;
+  border-style: solid;
+}
+.edu-inside-box{
+  background-color: #0b000f;
+  position: absolute;
+  width: 198px;
+  height: 197px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  padding: 20px 0;
+}
+.edu-heading{
+  position: absolute;
+  z-index: 11;
+  transform: translateX(175px) translateY(25px);
+  border-width: 0 0 3px 0;
+  border-style: double;
 }
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
   .about-me-image{
     width: 300px;
     height: 240px;
+  }
+  .education{
+    flex-direction: column;
+    align-items: center;
+  }
+  .edu-heading{
+    position: relative;
+    transform: translate(0);
+    margin: 50px 0;
+  }
+  .education-content{
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 201px;
+    height: 700px;
   }
 }
 
@@ -180,10 +236,10 @@ li{list-style: none;}
 .loader:after{
   content: "";
   position: absolute;
-  top: 15px;
-  bottom: 15px;
-  left: 15px;
-  right: 15px;
+  top: 10px;
+  bottom: 10px;
+  left: 10px;
+  right: 10px;
   border-radius: 50%;
   background-color: #16061c;
   background-image: url(mylogo.png);

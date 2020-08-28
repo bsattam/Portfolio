@@ -3,16 +3,17 @@
   margin: 0;
   font-family: 'Poppins', sans-serif;
 }
-body{
-  height: 500vh;
+::-webkit-scrollbar{
+  width: 5px;
+}
+::-webkit-scrollbar-track{
+  background-color: black;
+}
+::-webkit-scrollbar-thumb{
+  background-image: linear-gradient(#00FFEE, #FF00EF);
+  border-radius: 4px;
 }
 
-/*
-#071202
-#020F12
-#0D0212
-#120602
-*/
 
 a{text-decoration: none;}
 a:hover{text-decoration: none;}
@@ -111,7 +112,7 @@ li{list-style: none;}
   border-bottom: 3px double #f2e6ff;
 }
 .about-me-icons{
-  
+
 }
 
 
@@ -135,11 +136,6 @@ li{list-style: none;}
   background-image: linear-gradient(45deg,
   #4f34eb, #eb34cc, #eb3434);
 }
-.edu-border{
-  border-width: 0 3px 3px 0;
-  border-color: red;
-  border-style: solid;
-}
 .edu-inside-box{
   background-color: #0b000f;
   position: absolute;
@@ -156,8 +152,68 @@ li{list-style: none;}
   position: absolute;
   z-index: 11;
   transform: translateX(175px) translateY(25px);
-  border-width: 0 0 3px 0;
-  border-style: double;
+}
+
+
+#particles-js{
+  width: 100%;
+  height: 90vh;
+  background-image: linear-gradient(
+    rgb(10,0,1) 30%, rgb(2,0,0) 80%);
+}
+.skills-main{
+  width: 100%;
+  position: absolute;
+}
+.skills-all{
+  width: 70%;
+}
+.skill-heading{
+  width: 300px;
+}
+.skills-box{
+  width: 300px;
+  height: 60vh;
+  margin-top: 50px;
+  display: block;
+}
+.bgb{
+  background-color: rgb(10, 0, 1);
+}
+.skill{
+  background-color: rgb(10, 0, 1);
+  padding: 10px;
+  margin-bottom: 40px;
+}
+.skill-range{
+  height: 10px;
+  width: 100%;
+  border: 1px solid white;
+}
+.skill-len{
+  background-color: white;
+  height: 9px;
+}
+.s1{
+  width: 70%;
+}
+.s2{
+  width: 85%;
+}
+.s3{
+  width: 50%;
+}
+.s4{
+  width: 30%;
+}
+.s5{
+  width: 75%;
+}
+.s6{
+  width: 50%;
+}
+.s7{
+  width: 10%;
 }
 
 
@@ -181,7 +237,15 @@ li{list-style: none;}
     width: 201px;
     height: 700px;
   }
+  .skills-all{
+    flex-wrap: wrap;
+  }
+  #particles-js{
+    height: 150vh;
+  }
 }
+
+
 
 
 

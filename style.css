@@ -37,6 +37,9 @@ li{list-style: none;}
   color: white !IMPORTANT;
   text-transform: uppercase;
 }
+.nav-item:hover{
+  border-bottom: 1px solid #00FFEE;
+}
 .btn-primary{
   color: red;
   background-color: yellow;
@@ -184,6 +187,8 @@ li{list-style: none;}
   background-color: rgb(10, 0, 1);
   padding: 10px;
   margin-bottom: 40px;
+  border-radius: 10px;
+  border: 1px solid #abfff8;
 }
 .skill-range{
   height: 10px;
@@ -198,10 +203,10 @@ li{list-style: none;}
   width: 70%;
 }
 .s2{
-  width: 85%;
+  width: 80%;
 }
 .s3{
-  width: 50%;
+  width: 90%;
 }
 .s4{
   width: 30%;
@@ -215,6 +220,57 @@ li{list-style: none;}
 .s7{
   width: 10%;
 }
+.s8{
+  width: 50%;
+}
+
+#projects{
+  width: 100%;
+  background-image: linear-gradient( rgba(0,0,0,0.8),
+  rgba(11,0,15,0.8)),
+  url(projects.jpeg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.project-heading{
+  width: 400px;
+  padding: 50px;
+}
+
+.card{
+  box-shadow: 0 4px 8px 0 rgba(191, 198, 199,0.8);
+  height: 67vh;
+  text-align: center;
+  background:rgba(0, 0, 0, 0.8);
+  color: white;
+  margin-bottom: 40px;
+}
+
+.card-title{
+  border-bottom: 1px solid #91fff2;
+  padding-bottom: 10px;
+}
+
+.btn{
+  color: white;
+  border: 1px solid #91fff2;
+  box-shadow: 1px 1px 3px 0 rgba(191, 198, 199,0.8);
+}
+
+.btn:hover{
+  color: white;
+  background-color: #018080;
+}
+
+.carousel{
+  border: 1px solid #9cf5ff;
+  border-radius: 5px;
+}
+
+
+
 
 
 @media only screen and (max-width: 800px) {

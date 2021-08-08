@@ -93,7 +93,7 @@ li{list-style: none;}
 .about-me{
   width: 100%;
   background-image: linear-gradient(to right, rgba(0,0,0,0.7),
-  rgba(0,0,0,0.9)), url(./background-images/about-me-bg.jpeg);
+  rgba(0,0,0,0.9)), url(./background-images/about-me-bg.jpg);
   background-size: cover;
   background-position: 60% 50%;
   background-attachment: fixed;
@@ -102,7 +102,7 @@ li{list-style: none;}
 .about-me-image{
   width: 500px;
   height: 400px;
-  background-image: url(./background-images/me-2.jpeg);
+  background-image: url(./background-images/me-2.jpg);
   background-position: 50% 72%;
   background-size: cover;
   clip-path: polygon(50% 0%, 85% 10%, 75% 80%, 50% 100%,
@@ -121,7 +121,7 @@ li{list-style: none;}
   width: 100%;
   background-image: linear-gradient(135deg, rgba(0,0,0,0.95) 10%,
     rgba(11,0,15,0.95) 25%, rgba(17,0,23,0.95) 60%, rgba(0,0,0,0.8) 60%),
-    url(./background-images/books.jpeg);
+    url(./background-images/books.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -228,7 +228,7 @@ li{list-style: none;}
   width: 100%;
   background-image: linear-gradient( rgba(0,0,0,0.8),
   rgba(11,0,15,0.8)),
-  url(./background-images/projects.jpeg);
+  url(./background-images/projects.jpg);
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
@@ -275,7 +275,7 @@ li{list-style: none;}
   height: 90vh;
   background-image: linear-gradient(130deg,
     rgba(0,13,15,0.95) 25%, rgba(0, 20, 23,0.95) 50%, rgba(0,0,0,0.4) 50%),
-    url(./background-images/call.jpeg);
+    url(./background-images/call.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }

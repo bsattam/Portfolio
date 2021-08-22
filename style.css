@@ -30,6 +30,22 @@ li{list-style: none;}
   opacity: 0;
 }
 
+#about{
+  position: absolute;
+  margin-top: -150px;
+}
+#educ{
+  position: absolute;
+  margin-top: -70px;
+}
+#skills{
+  position: absolute;
+  margin-top: -70px;
+}
+#contact{
+  position: absolute;
+  margin-top: -70px;
+}
 .navbar{
   background-color: rgba(0,0,0,0.8);
   position: fixed;
@@ -135,7 +151,7 @@ li{list-style: none;}
   background-repeat: no-repeat;
 }
 .education-content{
-  height: 605px;
+  height: 600px;
   width: 100%;
   margin: 40px 150px;
   display: flex;
@@ -145,7 +161,7 @@ li{list-style: none;}
 .edu-inside-box{
   background-color: #0b000f;
   width: 200px;
-  height: 197px;
+  height: 190px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -273,7 +289,7 @@ li{list-style: none;}
 
 
 
-#projects{
+.projects{
   width: 100%;
   background-image: linear-gradient( rgba(0,0,0,0.8),
   rgba(11,0,15,0.8)),
@@ -325,7 +341,7 @@ li{list-style: none;}
 }
 
 
-#contact{
+.contact{
   height: 90vh;
   background-image: linear-gradient(130deg,
     rgba(0,13,15,0.95) 25%, rgba(0, 20, 23,0.95) 50%, rgba(0,0,0,0.4) 50%),
@@ -357,6 +373,9 @@ li{list-style: none;}
 }
 
 @media only screen and (max-width: 800px) {
+  #about, #educ{
+    margin-top: 0;
+  }
   .header-desc>h5{
     font-size: 16px !IMPORTANT;
   }
@@ -503,75 +522,3 @@ li{list-style: none;}
   }
 }
 
-
-
-/* 
-
-#particles-js{
-  width: 100%;
-  height: 90vh;
-  background-image: linear-gradient(
-    rgb(10,0,1) 30%, rgb(2,0,0) 80%);
-}
-.skills-main{
-  width: 100%;
-  position: absolute;
-}
-.skills-all{
-  width: 70%;
-}
-.skill-heading{
-  width: 300px;
-  z-index: 11;
-}
-.skills-box{
-  width: 300px;
-  height: 60vh;
-  margin-top: 50px;
-  display: block;
-}
-.bgb{
-  background-color: rgb(10, 0, 1);
-}
-.skill{
-  background-color: rgb(10, 0, 1);
-  padding: 10px;
-  margin-bottom: 40px;
-  border-radius: 10px;
-  border: 1px solid #abfff8;
-  box-shadow: 0 4px 8px 0 rgba(191, 198, 199,0.8);
-}
-.skill-range{
-  height: 10px;
-  width: 100%;
-  border: 1px solid white;
-}
-.skill-len{
-  background-color: white;
-  height: 9px;
-}
-.s1{
-  width: 70%;
-}
-.s2{
-  width: 80%;
-}
-.s3{
-  width: 90%;
-}
-.s4{
-  width: 30%;
-}
-.s5{
-  width: 75%;
-}
-.s6{
-  width: 50%;
-}
-.s7{
-  width: 10%;
-}
-.s8{
-  width: 50%;
-}
-*/
